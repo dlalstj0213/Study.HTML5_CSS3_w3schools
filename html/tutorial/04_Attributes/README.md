@@ -71,13 +71,13 @@
 ```
 
 ## We Suggest: Always Use Lowercase Attributes
-- HTML 표준에는 소문자 속성 이름이 필요하지 않습니다.
-- 제목 속성 (및 기타 모든 속성)은 제목 또는 TITLE과 같이 대문자 또는 소문자로 작성할 수 있습니다.
-- XHTML과 같은 더 엄격한 문서 유형에 대해 소문자 속성을 요구합니다.
+- HTML 표준에는 소문자 속성 이름이 필요하지 않다.
+- 제목 속성 (및 기타 모든 속성)은 제목 또는 TITLE과 같이 대문자 또는 소문자로 작성할 수 있다.
+- XHTML과 같은 더 엄격한 문서 유형에 대해 소문자 속성을 요구한다.
 
 ## We Suggest: Always Quote Attribute Values
-- HTML 표준은 속성 값을 따옴표로 묶을 필요가 없습니다.
-- XHTML과 같은 더 엄격한 문서 유형에 대해서는 따옴표를 요구합니다.
+- HTML 표준은 속성 값을 따옴표로 묶을 필요가 없다.
+- XHTML과 같은 더 엄격한 문서 유형에 대해서는 따옴표를 요구한다.
 ```html
 <!--GOOD-->
 <a href="https://www.w3schools.com/html/">Visit our HTML tutorial</a>
@@ -86,8 +86,8 @@
 ```
 
 ## Single or Double Quotes?
-- 속성 값 주위의 큰 따옴표는 HTML에서 가장 일반적이지만 작은 따옴표도 사용할 수 있습니다.
-- 어떤 상황에서는 속성 값 자체에 큰 따옴표가 포함 된 경우 작은 따옴표를 사용해야합니다.
+- 속성 값 주위의 큰 따옴표는 HTML에서 가장 일반적이지만 작은 따옴표도 사용할 수 있다.
+- 어떤 상황에서는 속성 값 자체에 큰 따옴표가 포함 된 경우 작은 따옴표를 사용해야한다.
 ```html
 <p title='John "ShotGun" Nelson'>
 ```
