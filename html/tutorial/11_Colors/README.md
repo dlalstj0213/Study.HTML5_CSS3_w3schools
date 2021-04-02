@@ -39,3 +39,8 @@
 <h1 style="background-color:rgba(255, 99, 71, 0.5);">rgba(255, 99, 71, 0.5)</h1>
 <h1 style="background-color:hsla(9, 100%, 64%, 0.5);">hsla(9, 100%, 64%, 0.5)</h1>
 ```
+
+### Study More About RGB, HEX, HSL
+- [RGB/RGBA](https://www.w3schools.com/html/html_colors_rgb.asp)
+- [HEX](https://www.w3schools.com/html/html_colors_hex.asp)
+- [HSL/HSLA](https://www.w3schools.com/html/html_colors_hsl.asp)
