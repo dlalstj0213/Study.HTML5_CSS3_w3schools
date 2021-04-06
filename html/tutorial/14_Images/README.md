@@ -79,3 +79,9 @@ The image will float to the right of the text.</p>
 The image will float to the left of the text.</p>
 ```
 
+### See More About Image
+[**@see**](./01_Image_Map) **Image Map**
+
+[**@see**](./02_Background_Images) **Background Images**
+
+[**@see**](./03_The_Picture_Element) **The Picture Element**
