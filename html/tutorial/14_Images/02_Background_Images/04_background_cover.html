@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Background Cover</title>
+  <style>
+    body {
+      background-image: url(../../../../imgs/background_1.jpg);
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>cover 분석 : </h1>
+  <p>background-size: cover 설정시에 전체화면에 이미지가 덮여씌워진 것처럼 보이지만 브라우저 창 크기를 줄이면 원래의 이미지 사이즈까지만 줄어들고 나머지는 repeat 되는 것을 볼 수
+    있다.<br> background-repeat: no-repeat 도 설정하면 반복되는 이미지는 더이상 보이진 않지만 나머지 빈 부분을 채워주진 않는것을 볼 수 있다. </p>
+  <p>그러나 background-attachment: fixed 까지 설정하면 이미지의 원래 비율을 유지하면서 전체 브라우저 화면을 덮는것을 볼 수 있다.</p>
+</body>
+
+</html>

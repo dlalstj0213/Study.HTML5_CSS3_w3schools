@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Background Images</title>
+  <style>
+    div {
+      background-image: url('../../../../imgs/background_1.jpg');
+    }
+
+    #divId {
+      background-image: url('../../../../imgs/background_2.jpeg');
+    }
+
+    .divClass {
+      background-image: url('../../../../imgs/background_3.jpg');
+    }
+  </style>
+</head>
+
+<body>
+  <h1>1. 태그, 아이디, 클래스에 백그라운드 적용해보기</h1>
+  <div>
+    <h2>Background on div : div 태그에 스타일헤드 적용</h2>
+  </div>
+  <div id="divId">
+    <h2>Background on div's id : div 태그 아이디 속성값에 스타일헤드 적용</h2>
+  </div>
+  <div class="divClass">
+    <h2>Background on div's class : div 태그 클래스 속성값에 스타일헤드 적용</h2>
+  </div>
+  <h1>2. 태그, 아이드, 클래스, 스타일 동시 적용시 우선순위 확인</h1>
+  <div id="divId" class="divClass" style="background-image: url(../../../../imgs/workplace.jpg);">
+    <h2>결과: style > id > class > elements</h2>
+  </div>
+</body>
+
+</html>
