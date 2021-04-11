@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Tables</title>
+  <style>
+    #table_1,
+    #table_1 th,
+    #table_1 td {
+      border: 1px solid red;
+      /* border-collapse: collapse; */
+      border-spacing: 20px;
+      padding: 10px;
+    }
+
+    #table_1 td {
+      text-align: right;
+    }
+
+    #table_2 {
+      width: 100%;
+    }
+
+    #table_2 th,
+    #table_2 td {
+      padding: 10px;
+    }
+
+    #table_2 tr:nth-child(even) {
+      background-color: rgb(204, 204, 204);
+    }
+
+    #table_2 tr:nth-child(odd) {
+      background-color: rgb(238, 238, 238);
+    }
+
+    #table_2 th {
+      background-color: black;
+      color: white;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>1. Table_1</h1>
+  <div>
+    <table id="table_1" style="width: 100%">
+      <caption style="font-size: 30px;">반 명단</caption>
+      <tr>
+        <th>반</th>
+        <th>이름</th>
+        <th>국적</th>
+      </tr>
+      <tr>
+        <td>1반</td>
+        <td>김길가</td>
+        <td>한국</td>
+      </tr>
+      <tr>
+        <td rowspan="2">2반</td>
+        <td>John</td>
+        <td rowspan="2">USA</td>
+      </tr>
+      <tr>
+        <!-- <td>2반</td> -->
+        <td>Jenny</td>
+        <!-- <td>USA</td> -->
+      </tr>
+      <tr>
+        <td>1반</td>
+        <td>김길나</td>
+        <td>한국</td>
+      </tr>
+    </table>
+  </div>
+  <h1>2. Table_2</h1>
+  <table id="table_2">
+    <tr>
+      <th>Firstname</th>
+      <th>Lastname</th>
+      <th>Age</th>
+    </tr>
+    <tr>
+      <td>Jill</td>
+      <td>Smith</td>
+      <td>50</td>
+    </tr>
+    <tr>
+      <td>Eve</td>
+      <td>Jackson</td>
+      <td>94</td>
+    </tr>
+    <tr>
+      <td>John</td>
+      <td>Doe</td>
+      <td>80</td>
+    </tr>
+  </table>
+</body>
+
+</html>
