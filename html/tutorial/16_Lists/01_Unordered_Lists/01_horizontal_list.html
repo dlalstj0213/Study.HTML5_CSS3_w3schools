@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Horizontal List</title>
+  <style>
+    /* 리스트 그룹에 배경색 및 목록 구분 None 설정 */
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333333;
+    }
+
+    /* 리스트 왼쪽 정렬 */
+    li {
+      float: left;
+    }
+
+    /* 리스트 태그 하위의 a태그,스타일 설정 */
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 16px;
+      text-decoration: none;
+    }
+
+    /* 마우스 커서가 a태그 위에 위치할시 색상 변경 */
+    li a:hover {
+      background-color: #111111;
+    }
+  </style>
+</head>
+
+<body>
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#news">News</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#about">About</a></li>
+  </ul>
+</body>
+
+</html>
